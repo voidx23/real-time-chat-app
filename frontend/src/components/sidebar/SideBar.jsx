@@ -14,7 +14,7 @@ const Sidebar = ({ contacts, onSelectContact }) => {
         .sort((a, b) => new Date(b.lastUpdated) - new Date(a.lastUpdated)); // Sort contacts by latest message (lastUpdated)
 
     return (
-        <div className="lg:w-1/4 text-white bg-gray-900 h-screen p-4 border-r-2 border-gray-700 flex flex-col">
+        <div className=" text-white bg-gray-900 h-screen p-4 border-r-2 border-gray-700 flex flex-col">
             {/* Heading */}
             <h2 className="text-xl font-bold mb-4">Contacts</h2>
 
